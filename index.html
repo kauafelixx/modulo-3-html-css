@@ -107,7 +107,39 @@
         <p><strong>depende do que eu quero fazer</strong></p>
 
 
+        <h3>Centralização vertical de caixas</h3>
+
+        <div id="container">
+            <div id="conteudo">
+
+            </div>
+        </div>
+        <p>Para colocar uma div dentro de outra div e centralizá-la, você deve criar a div <strong>"container"</strong>
+            (a div maior) com um id e depois criar uma div<strong> "conteudo" </strong>(a que vai ficar no centro)
+            também com um id.</p>
+        <ul>
+            <li><strong>container</strong>: a position vai ser <strong>relative </strong>
+
+            </li>
+
+            <li><strong>Conteudo</strong>: a position vai ser<strong> absolute</strong> (com absolute vai poder fazer
+                configuraçãoes nos lados) </li>
+            <li><strong>EX</strong> <br> left: 50% ; <br>
+                top: 50% ;</li>
+
+
+        </ul>
+        <p>Porem com essas coisas todas ainda não vai ficar no centro</p>
+        <p>ai vai ter que usar a tag <br>
+            <strong>transform: translate(-50%, -50%)</strong>;
+        </p>
+        <p>Agora sim fica no centro, como está na imagem acima, em que a div amarela é o conteudo, e a div azul é o
+            conteudo</p>
+
+        <p> <strong> background-attachment: fixed;</strong><br>
+            vai fazer com que a imagem de fundo fique imovel, com apenas o contudo se movemdo</p>
     </main>
+
 </body>
 
 </html>
