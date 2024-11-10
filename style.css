@@ -19,7 +19,7 @@
 
 body {
     background-color: rgb(255, 255, 255);
-    background-image: url(Sakura\ Flower.jpg);
+    background-image: url(download\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -34,15 +34,11 @@ header>h1 {
     font-size: 3.5em;
     text-align: center;
     letter-spacing: 0.5em;
+    text-decoration: underline black;
+    text-shadow: 2px 2px 10px rgb(255, 255, 255);
 }
 
-header>p {
-    font-family: var(--font-padrao);
-    font-size: 1em;
-    text-align: justify;
-    width: 600px;
-    padding: 2px;
-}
+
 
 mark {
     background-color: black;
@@ -146,4 +142,12 @@ position: absolute;
 left: 50%;
 top: 50%;
 transform: translate(-50%, -50%);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
