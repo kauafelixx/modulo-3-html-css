@@ -16,7 +16,8 @@
     --cor2: #818181ab;
     --cor3: #252525ab;
 }
-*{
+
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -25,7 +26,7 @@ body {
     background-color: var(--cor1);
 }
 
-header{
+header {
     background-color: var(--cor3);
     height: 14vw;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.58);
@@ -34,9 +35,9 @@ header{
 
 header>h1 {
     font-family: var(--font-titulo);
-   font-size: 7vw;
-   text-align: center ;
-   padding: 20px;
+    font-size: 7vw;
+    text-align: center;
+    padding: 20px;
 }
 
 
@@ -50,35 +51,35 @@ mark {
 
 
 
-.cap18 h1{
+.cap18 h1 {
     font-size: 5vw;
-    text-align: center ;
-font-family: var(--font-titulo);
+    text-align: center;
+    font-family: var(--font-titulo);
 }
 
-.cap18 h2{
+.cap18 h2 {
     font-size: 3.8vw;
     text-decoration: none;
 }
 
-.cap18 h3{
+.cap18 h3 {
     font-size: 3.8vw;
     text-align: center;
 
 }
 
-.cap18 p{
-font-size: 1em;
-line-height: 2em;
-padding: 20px;
+.cap18 p {
+    font-size: 1em;
+    line-height: 2em;
+    padding: 20px;
 }
 
-.cap18 ul{
-    padding:20px;
- text-decoration: underline var(--cor3);
+.cap18 ul {
+    padding: 20px;
+    text-decoration: underline var(--cor3);
 }
 
-.cap18 ul > img{
+.cap18 ul>img {
     box-shadow: none;
     border: none;
     padding: 0px;
@@ -89,42 +90,44 @@ padding: 20px;
 
 
 
-.cap19 h1{
+.cap19 h1 {
     font-size: 5vw;
-    text-align: center ;
-font-family: var(--font-titulo);
+    text-align: center;
+    font-family: var(--font-titulo);
 }
 
-.cap19 h2{
+.cap19 h2 {
     font-size: 3.8vw;
     text-decoration: none;
     font-family: var(--font-titulo);
 }
 
-.cap19 h3{
+.cap19 h3 {
     font-size: 3.8vw;
     text-align: center;
-font-family: var(--font-titulo);
+    font-family: var(--font-titulo);
 }
 
-.cap19 p{
-font-size: 1em;
-line-height: 2em;
-padding: 20px;
-font-family: var(--font-padrao);
+.cap19 p {
+    font-size: 1em;
+    line-height: 2em;
+    padding: 20px;
+    font-family: var(--font-padrao);
 }
 
-.cap19 ul{
-    padding:20px;
- text-decoration: underline var(--cor3);
+.cap19 ul {
+    padding: 20px;
+    text-decoration: underline var(--cor3);
+    font-family: var(--font-padrao);
+    line-height: 2em;
 }
 
 
 
 
 
-img{
- width: 200px;
+img {
+    width: 200px;
 }
 
 
@@ -139,32 +142,114 @@ hr {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.614);
 }
 
-#container{
-background-image: url(target001.png);
-background-size: 100% 100%;
-background-color: blueviolet;
-height: 400px;
-width: 300px;
-padding: 10px;
-position: relative;
+#container {
+    background-image: url(target001.png);
+    background-size: 100% 100%;
+    background-color: blueviolet;
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+    position: relative;
 }
 
-#conteudo{
-background-image: url(target001.png);
-background-size: 100% 100%;
-background-color: #ffef15;
-height: 200px;
-width: 150px;
-position: absolute;
-left: 50%;
-top: 50%;
-transform: translate(-50%, -50%);
+#conteudo {
+    background-image: url(target001.png);
+    background-size: 100% 100%;
+    background-color: #ffef15;
+    height: 200px;
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-a{
+a {
     color: black;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
+}
+
+
+.cap20 {
+
+    h1 {
+        font-family: var(--font-titulo);
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1em;
+        line-height: 2em;
+        padding: 20px;
+        font-family: var(--font-padrao);
+    }
+
+    a {
+        font-family: var(--font-titulo);
+    }
+}
+
+
+.cap21 {
+    h1 {
+        font-family: var(--font-titulo);
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: var(--font-titulo);
+        font-size: 3.5vw;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    p {
+        font-size: 1em;
+        line-height: 2em;
+        padding: 20px;
+        font-family: var(--font-padrao);
+    }
+
+    a {
+        font-family: var(--font-titulo);
+        font-size: 0.8em;
+        padding: 10px;
+    }
+
+    ul {
+        padding: 20px;
+        text-decoration: underline var(--cor3);
+        font-family: var(--font-padrao);
+        line-height: 2em;
+    }
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+thead{
+    background-color: green;
+}
+
+tbody{
+    background-color: pink;
+}
+
+tfoot{
+    background-color: aquamarine;
 }
