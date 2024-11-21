@@ -233,7 +233,13 @@ a:hover {
 table {
     width: 400px;
     border-collapse: collapse;
+position: relative;
+}
 
+thead > tr > td{
+position: sticky;
+background-color: rgb(90, 90, 90);
+top: -1px;
 }
 
 td {
@@ -243,13 +249,28 @@ td {
 }
 
 thead{
-    background-color: green;
+    background-color: rgb(90, 90, 90);
+    color: white;
 }
 
 tbody{
-    background-color: pink;
+    background-color: rgb(138, 138, 138);
 }
 
 tfoot{
-    background-color: aquamarine;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+tbody > tr:nth-child(2n){
+    background-color: rgb(186, 186, 186);
+}
+
+caption{
+    background-color: var(--cor2);
+    font-family: var(--font-padrao);
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px ;
+    font-weight: bold;
+    font-size: 1em;
 }
