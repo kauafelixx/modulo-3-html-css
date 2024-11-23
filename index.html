@@ -198,108 +198,261 @@
 
     <table>
         <caption>
-            Tabela de X coisas 
+            Tabela de X coisas
         </caption>
-<thead>
-<tr>
-    <td>000</td>
-    <td>000</td>
-    <td>000</td>
-</tr>
-</thead>
+        <thead>
+            <tr>
+                <td>000</td>
+                <td>000</td>
+                <td>000</td>
+            </tr>
+        </thead>
 
-<tbody>
-<tr>
-    <td>xxxx</td>
-    <td>xxxx</td>
-    <td>xxxx</td>
-</tr>
-<tr>
-    <td>xxxx</td>
-    <td>xxxx</td>
-    <td>xxxx</td>
-</tr>
-<tr>
-    <td>xxxx</td>
-    <td>xxxx</td>
-    <td>xxxx</td>
-</tr>
-<tr>
-    <td>xxxx</td>
-    <td>xxxx</td>
-    <td>xxxx</td>
-</tr>
-<tr>
-    <td>xxxx</td>
-    <td>xxxx</td>
-    <td>xxxx</td>
-</tr>
-<tr>
-    <td>xxxx</td>
-    <td>xxxx</td>
-    <td>xxxx</td>
-</tr>
-<tr>
-    <td>xxxx</td>
-    <td>xxxx</td>
-    <td>xxxx</td>
-</tr>
-<tr>
-    <td>xxxx</td>
-    <td>xxxx</td>
-    <td>xxxx</td>
-</tr>
-<tr>
-    <td>xxxx</td>
-    <td>xxxx</td>
-    <td>xxxx</td>
-</tr>
-<tr>
-    <td>xxxx</td>
-    <td>xxxx</td>
-    <td>xxxx</td>
-</tr>
-<tr>
-    <td>xxxx</td>
-    <td>xxxx</td>
-    <td>xxxx</td>
-</tr>
-<tr>
-    <td>xxxx</td>
-    <td>xxxx</td>
-    <td>xxxx</td>
-</tr>
-<tr>
-    <td>xxxx</td>
-    <td>xxxx</td>
-    <td>xxxx</td>
-</tr>
-<tr>
-    <td>xxxx</td>
-    <td>xxxx</td>
-    <td>xxxx</td>
-</tr>
+        <tbody>
+            <tr>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+            </tr>
+            <tr>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+            </tr>
+            <tr>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+            </tr>
+            <tr>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+            </tr>
+            <tr>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+            </tr>
+            <tr>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+            </tr>
+            <tr>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+            </tr>
+            <tr>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+            </tr>
+            <tr>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+            </tr>
+            <tr>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+            </tr>
+            <tr>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+            </tr>
+            <tr>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+            </tr>
+            <tr>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+            </tr>
+            <tr>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+            </tr>
 
-</tbody>
+        </tbody>
 
-<tfoot>
-<tr>
-    <td>yyy</td>
-    <td>yyy</td>
-    <td>yyy</td>
-</tr>
-</tfoot>
+        <tfoot>
+            <tr>
+                <td>yyy</td>
+                <td>yyy</td>
+                <td>yyy</td>
+            </tr>
+        </tfoot>
 
 
     </table>
-    <section  class="cap21">
-        <p>Para fazer o efeito zebrado na tabela é so usar a pseudo class <strong>nth-child(2n)</strong> dentro de tbody e tr</p>
+    <section class="cap21">
+        <p>Para fazer o efeito zebrado na tabela é so usar a pseudo class <strong>nth-child(2n)</strong> dentro de tbody
+            e tr</p>
+
+        <h4>MESCLAGEM DE CÉLULAS</h4>
     </section>
 
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2">B</td>
+
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td rowspan="2">H</td>
+            <td rowspan="2">I</td>
+        </tr>
+        <tr>
+            <td>J</td>
 
 
+        </tr>
+    </table>
 
+    <section class="cap21">
+        <p>Para fazer um TD ocupar duas colunas como está vendo com p <strong>B</strong> vai usar a tag <strong>colspan
+            </strong>dentor do TD</p>
+        <p>e para fazer o TD ocupar duas linhas como esta vendo com o<strong> H, I</strong> vai usar o
+            <strong>rowspan</strong> tambem dentro de TD
+        </p>
 
+        <h4>Desafios cap 21: parte 1</h4>
+
+    </section>
+
+    <table class="desafiocap21">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">8</td>
+            <td>9</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">10</td>
+            <td colspan="2">11</td>
+            <td>12</td>
+        </tr>
+
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+    </table>
+
+    <section class="cap21">
+        <h4>Desafios cap 21: parte 2</h4>
+    </section>
+
+    <table class="desafiocap21">
+        <tr>
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
+        </tr>
+
+        <tr>
+            <td rowspan="4">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+
+        <tr>
+            <td>J</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+
+        <tr>
+            <td colspan="4">N</td>
+        </tr>
+    </table>
+
+    <section class="cap21">
+        <h4>Desafios cap 21: parte 3</h4>
+    </section>
+
+    <table class="desafiocap21">
+        <tr>
+            <td>Grupo</td>
+            <td>Nomes</td>
+            <td colspan="3">Filmes</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Mulheres</td>
+            <td>Ana maria</td>
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Vingadores</td>
+        </tr>
+
+        <tr>
+            <td>Beatriz sousa</td>
+            <td>hulk</td>
+            <td>inception</td>
+            <td>batman</td>
+        </tr>
+
+        <tr>
+            <td>Claudia</td>
+            <td>oblivion</td>
+            <td>matrix</td>
+            <td>big hero</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">Homens</td>
+            <td>bruno mendonça</td>
+            <td>intocaveis</td>
+            <td>amnesia</td>
+            <td>gladiador</td>
+        </tr>
+
+        <tr>
+            <td>Daniel lourenço</td>
+            <td>wall-E</td>
+            <td>oldboy</td>
+            <td>dangal</td>
+        </tr>
+
+        <tr>
+            <td>Fabiano mota</td>
+            <td>star wars</td>
+            <td>taxi driver</td>
+            <td>toy story</td>
+        </tr>
+    </table>
 
 </body>
 

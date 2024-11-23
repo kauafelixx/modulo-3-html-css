@@ -128,6 +128,7 @@ mark {
 
 img {
     width: 200px;
+
 }
 
 
@@ -228,49 +229,63 @@ a:hover {
         font-family: var(--font-padrao);
         line-height: 2em;
     }
+
+    h4 {
+        font-family: var(--font-padrao);
+        padding: 20px;
+    }
 }
 
 table {
     width: 400px;
     border-collapse: collapse;
-position: relative;
+    position: relative;
+    margin: auto;
 }
 
-thead > tr > td{
-position: sticky;
-background-color: rgb(90, 90, 90);
-top: -1px;
+thead>tr>td {
+    position: sticky;
+    background-color: rgb(196, 196, 196);
+    top: -1px;
 }
 
 td {
     border: 1px solid black;
     text-align: center;
     padding: 10px;
+
 }
 
-thead{
+thead {
     background-color: rgb(90, 90, 90);
     color: white;
 }
 
-tbody{
-    background-color: rgb(138, 138, 138);
+tbody {
+    background-color: rgb(215, 215, 215);
 }
 
-tfoot{
+tfoot {
     background-color: rgb(0, 0, 0);
     color: white;
 }
 
-tbody > tr:nth-child(2n){
-    background-color: rgb(186, 186, 186);
-}
 
-caption{
+
+caption {
     background-color: var(--cor2);
     font-family: var(--font-padrao);
     padding: 10px;
-    border-radius: 5px 5px 0px 0px ;
+    border-radius: 5px 5px 0px 0px;
     font-weight: bold;
     font-size: 1em;
 }
+
+.desafiocap21 {
+    border-collapse: separate;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.447);
+}
+
+
