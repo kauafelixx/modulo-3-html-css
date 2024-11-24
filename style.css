@@ -24,6 +24,7 @@
 
 body {
     background-color: var(--cor1);
+    height: 100vh;
 }
 
 header {
@@ -237,7 +238,7 @@ a:hover {
 }
 
 table {
-    width: 400px;
+width: 400px;
     border-collapse: collapse;
     position: relative;
     margin: auto;
@@ -254,6 +255,11 @@ td {
     text-align: center;
     padding: 10px;
 
+}
+th{
+    border: 1px solid black;
+    padding: 10px;
+    font-family: var(--font-padrao);
 }
 
 thead {
@@ -281,11 +287,31 @@ caption {
     font-size: 1em;
 }
 
-.desafiocap21 {
-    border-collapse: separate;
+.desafiocap21{
+    border-collapse: collapse;
     padding: 10px;
     margin: auto;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.447);
 }
+
+
+.desafiocap21-2{
+
+    th{
+        background-color: gray;
+        padding: 3px;
+    }
+
+    .medias{
+        background-color: goldenrod;
+        padding: 1px;
+    }
+
+    .area{
+        background-color: wheat;
+    }
+}
+
+
 
 

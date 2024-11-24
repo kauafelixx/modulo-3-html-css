@@ -329,7 +329,7 @@
             <strong>rowspan</strong> tambem dentro de TD
         </p>
 
-        <h4>Desafios cap 21: parte 1</h4>
+        <h4>Desafios I cap 21: parte 1</h4>
 
     </section>
 
@@ -366,7 +366,7 @@
     </table>
 
     <section class="cap21">
-        <h4>Desafios cap 21: parte 2</h4>
+        <h4>Desafios I cap 21: parte 2</h4>
     </section>
 
     <table class="desafiocap21">
@@ -400,17 +400,17 @@
     </table>
 
     <section class="cap21">
-        <h4>Desafios cap 21: parte 3</h4>
+        <h4>Desafios I cap 21: parte 3</h4>
     </section>
 
     <table class="desafiocap21">
         <tr>
-            <td>Grupo</td>
-            <td>Nomes</td>
-            <td colspan="3">Filmes</td>
+            <th scope="col">Grupo</th>
+            <th scope="col">Nomes</th>
+            <th colspan="3" scope="colgroup">Filmes</th>
         </tr>
         <tr>
-            <td rowspan="3">Mulheres</td>
+            <th rowspan="3" scope="rowgroup">Mulheres</th>
             <td>Ana maria</td>
             <td>Alien</td>
             <td>Rambo</td>
@@ -432,7 +432,7 @@
         </tr>
 
         <tr>
-            <td rowspan="3">Homens</td>
+            <th rowspan="3" scope="rowgroup">Homens</th>
             <td>bruno mendonça</td>
             <td>intocaveis</td>
             <td>amnesia</td>
@@ -453,6 +453,93 @@
             <td>toy story</td>
         </tr>
     </table>
+
+    <section class="cap21">
+        <h3>Uso de SCOPE</h3>
+        <p>o scope vai ser usado para dizer como estar e onde estar o conteudo de cada elemento</p>
+        <p>como ver na tabela acima o <strong>GRUPO</strong> faz menção a MULHERES E HOMENS, então ele vai ser
+            <strong>scope: col ;</strong>
+        </p>
+
+        <h4>Desafios II cap 21: parte 1</h4>
+    </section>
+
+    <table class="desafiocap21-2">
+        <tr>
+            <th rowspan="2" scope="col">área</th>
+            <th rowspan="2" scope="col">disciplinas</th>
+            <th colspan="2" scope="colgroup">Notas</th>
+            <th rowspan="2" scope="col">médias</th>
+        </tr>
+
+        <tr>
+            <th scope="col">nota 1</th>
+            <th scope="col">nota 2</th>
+        </tr>
+
+        <tbody>
+            <tr>
+                <th rowspan="4" class="area" scope="rowgroup">Exatas</th>
+                <td>Matematica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>Fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr class="medias">
+                <td colspan="4">Médias exatas</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2" class="area" scope="rowgroup">Humanas</th>
+                <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr class="medias">
+                <td colspan="4">Medias Humanas</th>
+                <td>0.0</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    
+ 
+
+
+
 
 </body>
 
