@@ -50,6 +50,9 @@ mark {
     padding: 1px;
 }
 
+.cap18{
+    font-family: var(--font-padrao);
+}
 
 
 .cap18 h1 {
@@ -310,8 +313,18 @@ caption {
     .area{
         background-color: wheat;
     }
+
 }
 
+#responsiva{
+    overflow-x:  auto;
+}
+
+.fim{
+    font-family: var(--font-titulo);
+    text-align: center;
+    
+}
 
 
 
